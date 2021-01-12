@@ -1,0 +1,171 @@
+
+
+
+
+
+
+DOOR UNLOCK WITH FACE RECOGNITION
+
+
+Submitted By: Potala Venkata Surya Tarun.
+
+
+Club: BMU ROBOTICS CLUB.
+
+
+
+ 
+
+
+
+Table of Contents
+
+
+
+1.	Executive Summary
+2.	Business Case Analysis of Project
+3.	Benchmarking the existing solutions with respect to Project
+4.	Project Product specifications
+5.	Specific Functional Requirements
+6.	Performance Requirements
+7.	Development and Customer Commitment Requirements
+8.	Physical Requirements
+9.	Safety Requirements
+10.	Miscellaneous Product Requirements
+11.	Brainstorming & Concept Generation for Project Product
+12.	Implementation plan for Project product
+13.	Safety
+14.	Conclusions
+15.	References
+ 
+
+
+
+
+
+
+E xecutive summary :
+“In this world of unpredicted and unexpected threats now-a-days safety is essential
+for everyone.” As the technology advances day by day, the inventions that humans make for safety becomes easier to crack and leads us to invent more advanced security systems after learning from our setbacks in the past. Talking about the security systems the world is slowly changing to fingerprint and password security, but is that enough? They are now easily cracked with some techniques. Thanks to the algorithms such as ARTIFICIAL INTELLIGENCE and MACHINE LEARNING with which we can move towards to more better security system known as FACE RECOGNITION DOOR UNLOCK SYSTEM which runs with help of this algorithms and tries to learn the new hacks that hackers are trying to defend it for the next time the new hacker tries.
+So our project idea derives from the safety issues that the world is facing now-a-days and we think this is a correct solution and can offer us security better than the previous ones.
+
+
+B usiness case analysis of project :
+This device has great potential in the market as most of the homes now-a-days are
+tending towards the idea of Smart Homes in which they are integrating the technology to their homes and can be used in software offices where the door opens for employees and can also record their attendance and time of entering the office and has various applications which makes this product worthy.
+The cost of one piece of this product is around “6000 rupees” in which the cost when divided among the components it is highest for the main part of the project that is the raspberry pi which costs around 4500 rupees.
+
+
+B enchmarking the existing solutions with respect to Project :
+This project is about security system. So, talking about the security systems the world is
+slowly changing to fingerprint and password security . But that is not enough .Even that security systems also to be cracked or hacked by some one . It is not more safety. According to our   project we use algorithms such as ARTIFICIAL INTELLIGENCE and MACHINE LEARNING. By using these algorithms, we created some more advanced technology , that security system using Face Recognition. When compared to my project with now a day’s security , it is more safety. It difficult hack or crack that software. We can use this so many fields like companies and homes etc.
+ 
+
+
+
+
+The features of this project are Facial recognition uses advanced analytics to identify a person at the door. With locks like the Solenoid Lock the technology has been designed to allow homeowners to unlock their doors with nothing but a smile. The lock has a dual camera that boasts the ability to recognize faces within 0.2 seconds.
+
+
+P roject Product specifications :
+
+1)	 Raspberry pi :
+The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV and uses a standard keyboard and mouse We want to see the Raspberry
+Pi being used by kids all over the world to learn to program and understand how computers work. And it like a CPU of the computer. And we can handle with laptop also.
+2)	 Pi Camera :
+The Pi camera module is a portable light weight camera that supports Raspberry Pi. It communicates with Pi using the MIPI camera serial interface protocol. It is normally used in image processing, machine learning or in surveillance projects.
+3)	 Solenoid Lock :
+SOLENOID LOCK. The solenoid lock denotes a latch for electrical locking and unlocking. It is available in unlocking in the power-on mode type and locking and keeping in the power-on mode type, which can be used selectively for situations	The power-on locking type
+can lock a door while the solenoid is powered on.
+
+4)	 Relay Module :
+The relay module is a separate hardware device used for remote device switching. With it you can remotely control devices over a network or the Internet. Devices can be remotely powered on or off with commands coming from Clock Watch Enterprise delivered over a local   or wide area network.
+S pecific Functional Requirements :
+The working nature of Raspberry pi is like CPU of computer . When it is working it gets heated, we need to cool that machine we didn’t cool means it gets spoiled . For that purpose, we some small fans. And we use external power source to Solenoid lock. We use case type to cover the Raspberry Pi. It is better for it to work normally. We use some Raspbian  OS and some  coding Part for that.
+ 
+
+
+
+P erformance Requirements :
+When we are using it need’s our performance clearly that means when it is recognizing
+our face we didn’t shake or clumsy our face. When we done like that it may be show error. Sometimes there is a chance to damage or spoil the Raspberry Pi . We use some Raspbian OS and some coding.
+
+
+D evelopment and Customer Commitment Requirements :
+We want to develop our more even we did . We just done like a prototype .The whole
+machinery and all need to be keep safely for we some case or any other thing . According to customer commitment requirement so many customer’s asking about it’s safety and we can password or voice recognition to that. If someone face take capture show to the camera if it recognizes means what we can do like some questions asked by customers . For we are trying to improve it for more safety. And we are trying to develop it.
+
+
+P hysical Requirements :
+•	For Raspberry Pi we need power supply 5.1v and 3A.
+•	For Solenoid Lock we need power supply 9v.
+•	We need provide stand to pi camera .
+•	Total weight is nearly 500gm.
+•	We case for Raspberry Pi
+
+
+
+S afety Requirements :
+We want to give exact power to the Raspberry pi .If we didn’t give the exact power it may not work properly. We use small fan to cool the Raspberry pi.
+
+
+M iscellaneous Product Requirements :
+We use some materials for project like Jumper Cables, Power Cables, etc.
+ 
+
+
+
+B rainstorming and concept generation project product:
+
+We place the face like this:
+
+
+After storing the camera recognizes the face like this:
+
+
+
+ 
+
+
+
+
+
+
+C ircuit diagram:
+
+
+
+
+
+
+I mplementation plan for project product:
+First the human face is recorded by using the Raspbian software in which capture image code in which we store the image.
+Now the image captured is stored and is ready for the comparison of the stored image with the image when someone comes in front of the pi camera to unlock the door.
+Basically, the pi camera takes the image in some full resolution and crops it to the face part only where it compares with the stored image (which is also cropped).
+Now as the command from the raspberry pi board goes to the relay module it will send current to solenoid lock attached to the door to open it.
+ 
+
+
+
+
+If it does not recognize it will send message to the owner.
+
+
+
+F lowchart of the implementation:
+
+S afety:
+The safety concerns about this product is that the customer should take care of the places where they keep it. It should not be exposed to water or moisture while in operation. Do not expose it to heat from any source; the Raspberry Pi is designed for reliable operation at normal ambient room temperatures.
+ 
+
+
+
+C onclusion:
+
+The arrangement of a facial recognition system using raspberry pi can make the system littler, lighter and work successfully utilizing lower control use, so it is more convenient than the pc- based face recognition system. We are also providing power backup for the smooth and continuous functioning of the system in case of power failure. This development scheme is   cheap, fast, and highly reliable and Raspberry pi takes less power and provides enough flexibility to suit the requirement of different people.
+
+R eferences:
+
+https://components101.com/microcontrollers/raspberry-pi-3-pinout-features-datasheet More Online websites
+University Professors Ativitti technologies
+Some books on raspberry pi
